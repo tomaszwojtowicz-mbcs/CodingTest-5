@@ -1,0 +1,155 @@
+body { 
+  background: #f8f8f8;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.4em;
+    color: #4e2278;
+    text-align: center;
+    margin: 20px;
+}
+.card {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+    border-radius: 6px;
+    border-style: none;
+/*    background-color: #fff8eb;*/
+    background-color: #FFFAF0;
+    text-align: center;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .card {
+    margin: 5px 5px 10px 5px;
+}
+
+.card-deck {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.card-deck .card {
+    width: 47%;
+}
+
+.card-title {
+    margin-top: 0.7em;
+    margin-bottom: 0.1em;
+    
+    font-weight: 800;
+    font-size: 1.4em;
+    color: #4e2278;
+}
+
+.card-subtitle {
+    text-align: center + 20px;
+    margin-bottom: 0.7em;
+    
+    font-weight: 300;
+    font-size: 0.9em;
+    color: dimgray;
+    font-style: italic;
+    position: relative;
+}
+
+/*
+.card-subtitle::after {
+	content: "\f0d7";
+	color: #333;
+	top: -2px;
+	right: 0px;
+	position: absolute;
+    font-family: "FontAwesome"
+}
+*/
+/*
+
+.card-subtitle[aria-expanded="true"]::after {
+	content: "\f106";
+	content: "\f106";
+}
+*/
+.card-header {
+    padding: .75rem 0.1rem;
+    border-bottom-style: none;
+}
+   
+
+.card-header .card-title {
+/*    text-align: center;*/
+    margin-bottom: 0.3em;
+    font-weight: 600;
+    font-size: 1.2em;
+/*    color: #4e2278;*/
+}
+
+.card-header .card-subtitle {
+    margin-bottom: 0.1em;
+}
+
+.card-text {
+    margin: 10px;
+}
+
+.card-text:last-child {
+    margin-bottom: inherit;
+}
+
+.card-footer {
+    padding: 5px;
+     font-size: 0.8em;
+}
+
+.card-footer p {
+   margin: 0px;
+}
+.travel-registration {
+/*    background-color: #DFD1C7;*/
+    background-color: #fbfbf8;
+}
+
+.break-meal {
+    background-color: #ddefdd;
+}
+
+.main-event {
+/*    background-color: #feb126;*/
+    background-color: #fec359;
+}
+
+.mobile {
+    background-color: #f1f6fc;
+}
+
+.user-centered-design {
+    background-color: #fcfcf4;
+}
+
+.customer-centricity {
+    background-color: #ebece6;
+}
+
+.other-events {
+    background-color: #fff6ee;
+}
+
+.col-md-2 {
+    padding: 0px;
+}
+
+.col-md-3 {
+    padding: 0px;
+}
+
+.fa {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-style: normal
+}
+
+.card-subtitle span:first-of-type {
+    margin-right: -18px;
+}
